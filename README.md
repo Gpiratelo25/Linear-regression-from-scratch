@@ -64,7 +64,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_
             b-=i*db
         ```
     - We create a visualization to see the curves of the losses:
-    <image>
+    <img width="554" height="432" alt="image" src="https://github.com/user-attachments/assets/6fac673a-d18e-4661-b361-367464f3465e" />
 
     - The Result:
     ## Hyperparameter Tuning — Learning Rate (Gradient Descent)
@@ -106,7 +106,8 @@ print(f"1D | MSE={mse:.5f} | R2={r2:.5f} | RMSE={rmse:.5f}")
 -The result : `1D | MSE=0.53057 | R2=0.59577 | RMSE=0.72840`
 
 * And the graph with the prediction curve :
-<image>
+    <img width="562" height="434" alt="image" src="https://github.com/user-attachments/assets/0bb53ecb-607f-4071-b9aa-54ab3949acfc" />
+
 
 ## Conclusion
 
